@@ -1,6 +1,7 @@
 import './globals.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 export const metadata = {
   title: 'DS VENTRA | Environment | Compliance | Sustainability',
@@ -8,5 +9,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return <html lang="en"><body><Header />{children}<Footer /></body></html>;
+  return <html lang="en"><body><Header />{children}<Footer /><WhatsAppButton />
+</body></html>;
 }
+
+
