@@ -22,21 +22,14 @@ export default function WhatsAppButton() {
         <div className="whatsapp-options">
           <p>Chat with DS VENTRA</p>
 
-          <a
-            href={`https://wa.me/919075881115?text=${message}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WhatsApp 1
-            <span>+91 90758 81115</span>
-          </a>
+          
 
           <a
             href={`https://wa.me/919270281115?text=${message}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            WhatsApp 2
+            WhatsApp
             <span>+91 92702 81115</span>
           </a>
         </div>
