@@ -6,7 +6,7 @@ export default function Header(){
   const [open,setOpen]=useState(false);
   const links=[['Home','/'],['About Us','/about'],['Services','/services'],['Industries','/industries'],['Projects','/projects'],['Resources','/resources'],['Contact Us','/contact']];
   return <>
-    <div className="topbar"><div>📍 Plot No. 18, Survey No. 112/1, Near Datta Mandir, Khatav, Satara, Maharashtra – 415505</div><div>☎ +91 90758 81115 &nbsp; | &nbsp; +91 92702 81115 &nbsp; • &nbsp; ✉ dsventra@gmail.com</div></div>
+    <div className="topbar"><div>📍 Building No. 445, Ganpati Mal Road, Near Ganpati Temple, Kalambhe, Satara, Maharashtra – 415514</div><div>☎ +91 90758 81115 &nbsp; | &nbsp; +91 92702 81115 &nbsp; • &nbsp; ✉ dsventra@gmail.com</div></div>
     <header className="header"><Link href="/" className="brand"><img
   src="/logo.png"
   alt="DS VENTRA"
