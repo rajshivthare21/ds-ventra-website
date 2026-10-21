@@ -1,6 +1,17 @@
 import Link from 'next/link';
 import ClientLogoSlider from '../components/ClientLogoSlider';
 
+
+export const metadata = {
+  title: "Environmental Consultancy Services | DS VENTRA",
+  description:
+    "Explore DS VENTRA's environmental consultancy, regulatory compliance, environmental assessments, pollution control and sustainability services in Maharashtra, India.",
+  alternates: {
+    canonical: "/services",
+  },
+};
+
+
 const services = [
   ['01', 'Environmental Consultancy', 'Clear, practical guidance to help plan and manage environmental responsibilities.'],
   ['02', 'Environmental Compliance', 'Support for statutory requirements, documentation, reviews and compliance planning.'],

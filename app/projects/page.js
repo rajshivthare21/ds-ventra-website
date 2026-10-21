@@ -1,2 +1,12 @@
 import SectionTitle from '../../components/SectionTitle';
+
+export const metadata = {
+  title: "Environmental Projects & Case Studies | DS VENTRA",
+  description:
+    "Explore DS VENTRA's environmental consultancy and engineering projects focused on regulatory compliance, environmental management and sustainability solutions in India.",
+  alternates: {
+    canonical: "/projects",
+  },
+};
+
 export default function Projects(){return <main><section className="pagehero"><span className="eyebrow lime">OUR WORK</span><h1>Projects & Engagements</h1><p>Practical environmental support from assessment to implementation.</p></section><section className="section"><SectionTitle title="Selected Work Areas" text="This section is ready for your actual project portfolio. Replace the sample categories below with verified projects as your portfolio grows."/><div className="projectgrid"><article><span>01</span><h3>Environmental Compliance</h3><p>Compliance reviews, statutory documentation and action planning for industrial facilities.</p></article><article><span>02</span><h3>Water & Wastewater</h3><p>Consultancy around STP, ETP, WTP and water-management requirements.</p></article><article><span>03</span><h3>Environmental Assessment</h3><p>EIA, EMP and environmental audit support for responsible development.</p></article><article><span>04</span><h3>Approvals & Consents</h3><p>Support for MPCB consent and groundwater-related regulatory requirements.</p></article></div></section></main>}
