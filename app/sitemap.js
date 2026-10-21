@@ -1,13 +1,21 @@
 
-export default function sitemap() {
-  const baseUrl = "https://dsventra.com";
+const baseUrl = "https://dsventra.com";
 
-  return [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
-    },
+export default function sitemap() {
+  const pages = [
+    "",
+    "/about",
+    "/services",
+    "/industries",
+    "/projects",
+    "/resources",
+    "/contact",
   ];
+
+  return pages.map((page) => ({
+    url: `${baseUrl}${page}`,
+    lastModified: new Date(),
+    changeFrequency: page === "" ? "weekly" : "monthly",
+    priority: page === "" ? 1 : 0.8,
+  }));
 }
