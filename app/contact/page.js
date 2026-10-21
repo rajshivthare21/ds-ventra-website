@@ -26,7 +26,7 @@ export default function Contact() {
             <b>Office</b>
             <p>
               Building No. 445, Ganpati Mal Road,<br />
-              Near Ganpati Temple, Kalambhe, Wai<br />
+              Near Ganpati Temple, Kalambhe, Wai,<br />
               Satara, Maharashtra – 415514
             </p>
           </div>
